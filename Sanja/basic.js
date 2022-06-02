@@ -17,6 +17,15 @@ var car = {
 
         return this.brand + ' ' + this.model + ' ' + this.price + ' ' + this.year;
 
+    },
+    info: function() {
+        return `<div class="card" style="width: 18rem;">
+        <img src="${this.img}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${this.brand} ${this.model}</h5>
+          <p class="card-text"> ${this.year}, ${this.fuel}</p>
+        </div>
+      </div>`;
     }
 
 }
@@ -33,14 +42,23 @@ var animal = {
 
     kind: "cat",
 
-    race: "rusian blue",
+    breed: "rusian blue",
 
     hobbies: ['chasing Mouse', 'cuddling'],
 
     animalInfo: function() {
 
-        return this.name + ' ' + this.owner + ' ' + this.kind + ' ' + this.race;
+        return this.name + ' ' + this.owner + ' ' + this.kind + ' ' + this.breed;
 
+    },
+    info: function() {
+        return `<div class="card" style="width: 18rem;">
+        <img src="${this.img}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">${this.name} ${this.breed}</h5>
+          <p class="card-text">${this.age} , ${this.kind} , ${this.hobbies}</p>
+        </div>
+      </div>`;
     }
 
 }
@@ -53,7 +71,7 @@ var person = {
 
         age: 29,
 
-        img: "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg",
+        img: "https://cdn.pixabay.com/photo/2018/01/13/19/39/fashion-3080644_960_720.jpg",
 
 
         drivingLicense: true,
@@ -70,6 +88,15 @@ var person = {
 
             return this.firstName + ' ' + this.lastName;
 
+        },
+        info: function() {
+            return `<div class="card" style="width: 18rem;">
+            <img src="${this.img}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">${this.firstName} ${this.lastName} ${this.age}</h5>
+              <p class="card-text">i like to ${this.courses[1]}</p>
+            </div>
+          </div>`;
         }
 
     }
@@ -86,16 +113,22 @@ document.getElementById("price").innerHTML = car.price;
 
 document.getElementById("name").innerHTML = animal.name;
 document.getElementById("age").innerHTML = animal.age;
-document.getElementById("race").innerHTML = animal.race;
+document.getElementById("breed").innerHTML = animal.breed;
 document.getElementById("personName").innerHTML = person.fullName();
 document.getElementById("ageP").innerHTML = person.age;
 document.getElementById("courses").innerHTML = person.courses;
+
+document.getElementById("result").innerHTML += car.info();
+document.getElementById("result").innerHTML += animal.info();
+document.getElementById("result").innerHTML += person.info();
 
 
 
 
 //print the following message within the browser: My favorite sandwich is a Hamburger which has approximately 260 calories, along with it I enjoy eating Large French Fries which have about 570 calories
-var sandwiches = { sandwich: "hamburger", calories: "260" };
-var fries = { fries_size: "Large French Fries", calories: "570" };
+var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+
+JSON.parse
 
 console.log()
