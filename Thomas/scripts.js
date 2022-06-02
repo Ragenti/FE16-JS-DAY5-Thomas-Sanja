@@ -155,6 +155,10 @@ console.log("My favorite sandwich is a "+sandwiches.sandwich+" wich has approxim
 
 let mydata = JSON.parse(employees);
 
+document.querySelector(`body`).style.width = `600px`;
+
+document.querySelector(`body`).style.textAlign = `center`;
+
         for (let i = 0; i < mydata.length; i++){
             
             if (i < 1){
@@ -241,7 +245,7 @@ for (let i = 0; i < bookdata.length; i++){
 
     document.getElementById(`pic_${i}`).style.backgroundImage = `url(${bookdata[i].image})`;
 
-    document.getElementById(`pic_${i}`).style.height = `50vw`;
+    document.getElementById(`pic_${i}`).style.height = `600px`;
 
     document.getElementById(`pic_${i}`).style.backgroundPosition = `center`;
 
