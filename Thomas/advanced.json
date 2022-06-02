@@ -1,0 +1,82 @@
+let books = `[
+    {
+        "id": "1",
+        "title": "Harry Potter 1",
+        "author": "J. Rolling",
+        "image": "pics/hp1.jpg",
+        "read": true
+
+    }, 
+    {
+        "id":"2",
+        "title":"Harry Potter 2",
+        "author": "J. Rolling",
+        "image": "pics/hp2.jpg",
+        "read":true
+        
+    },
+    {
+        "id":"3",
+        "title":"Harry Potter 5",
+        "author": "J. Rolling",
+        "image": "pics/hp5.jpg",
+        "read":false
+    
+    },
+    {
+        "id":"4",
+        "title":"The Lord of the Rings",
+        "author": "Tolkin",
+        "image": "pics/lord.jpg",
+        "read":false
+    
+    },
+    {
+        "id":"5",
+        "title":"The Fellowship of the Rings",
+        "author": "Tolkin",
+        "image": "pics/fellow.jpg",
+        "read":true
+    
+    },
+    {
+        "id":"6",
+        "title":"Hobit",
+        "author": "Tolkin",
+        "image": "pics/hobit.jpg",
+        "read":true
+    
+    },
+    {
+        "id":"7",
+        "title":"Alchemist",
+        "author": "Paolo Coelho",
+        "image": "pics/alchem.jpg",
+        "read":false
+    
+    },
+    {
+        "id":"8",
+        "title":"Agatha Christie",
+        "author": "The Murder on the Links",
+        "image": "pics/ac2.jpg",
+        "read":false
+    
+    },
+    {
+        "id":"9",
+        "title":"Agatha Christie",
+        "author": "Death on the Nile",
+        "image": "pics/ac1.jpg",
+        "read":true
+    
+    },
+    {
+        "id":"10",
+        "title":"The Cursed Child",
+        "author": "J. Rolling",
+        "image": "pics/cursed.jpg",
+        "read":true
+    
+    }
+]`

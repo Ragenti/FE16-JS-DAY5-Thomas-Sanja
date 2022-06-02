@@ -159,7 +159,7 @@ let mydata = JSON.parse(employees);
             
             if (i < 1){
 
-                document.getElementById('box').innerHTML += "<table id=table><thead><tr><th>UniqueID</th><th>FirstName</th><th>LastName</th><th>EmailAddress</th><th>JobTitle</th><th>Sallary</th></tr></thead><tbody id=table_body></tbody></table>"
+                document.getElementById('box').innerHTML += "<table id=table><thead><tr><th>Unique ID</th><th>First Name</th><th>Last Name</th><th>Email Address</th><th>Job Title</th><th>Sallary</th></tr></thead><tbody id=table_body></tbody></table>"
             }
             
             document.getElementById('table_body').innerHTML += "<tr><td>"+mydata[i].UniqueID+"</td><td>"+mydata[i].FirstName+"</td><td>"+mydata[i].LastName+"</td><td>"+mydata[i].EmailAddress+"</td><td>"+mydata[i].JobTitle+"</td><td>"+mydata[i].Salary+"</td></tr>";
@@ -176,7 +176,6 @@ let mydata = JSON.parse(employees);
                 } 
             }
         }
-
         
 
 
@@ -218,4 +217,35 @@ let mydata = JSON.parse(employees);
 //Advanced
 
 
-if
+let bookdata = JSON.parse(books);
+
+document.getElementById('bookBox').style.textAlign = `center`;
+
+for (let i = 0; i < bookdata.length; i++){
+
+    document.getElementById('bookBox').innerHTML += `<hr><p id = "text_${i}">${bookdata[i].title} by ${bookdata[i].author}</p><div id = "pic_${i}"></div><hr>`;
+
+    if (bookdata[i].read == true) {
+
+        document.getElementById(`text_${i}`).style.color = `green`;
+
+        document.getElementById(`text_${i}`).style.backgroundColor = `lightgrey`;
+
+    } else {
+
+        document.getElementById(`text_${i}`).style.color = `red`;
+
+        document.getElementById(`text_${i}`).style.backgroundColor = `yellow`;
+
+    }
+
+    document.getElementById(`pic_${i}`).style.backgroundImage = `url(${bookdata[i].image})`;
+
+    document.getElementById(`pic_${i}`).style.height = `50vw`;
+
+    document.getElementById(`pic_${i}`).style.backgroundPosition = `center`;
+
+    document.getElementById(`pic_${i}`).style.backgroundRepeat = `no-repeat`;
+
+    document.getElementById(`pic_${i}`).style.backgroundSize = `contain`;
+};
