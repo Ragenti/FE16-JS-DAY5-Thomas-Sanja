@@ -6,12 +6,14 @@ var car = {
 
     price: 29999,
 
+    img: "https://cdn.pixabay.com/photo/2019/01/27/15/45/vw-3958334_960_720.jpg",
+
     year: 2020,
 
     fuel: "petrol",
 
 
-    fullName: function() {
+    carInfo: function() {
 
         return this.mark + ' ' + this.model + ' ' + this.price + ' ' + this.year;
 
@@ -27,13 +29,15 @@ var animal = {
 
     age: 2,
 
+    img: "https://cdn.pixabay.com/photo/2016/12/15/23/24/cat-1910266_960_720.jpg",
+
     kind: "cat",
 
     race: "rusian blue",
 
     hobbies: ['chasing Mouse', 'cuddling'],
 
-    fullName: function() {
+    animalInfo: function() {
 
         return this.name + ' ' + this.owner + ' ' + this.kind + ' ' + this.race;
 
@@ -43,21 +47,55 @@ var animal = {
 
 var person = {
 
-    firstName: "sanja",
+        firstName: "sanja",
 
-    lastName: "pavic",
+        lastName: "pavic",
 
-    age: 29,
+        age: 29,
 
-    drivingLicense: true,
+        img: "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg",
 
-    hobbies: ['bike', 'read', 'coding'],
 
-    fullName: function() {
+        drivingLicense: true,
 
-        return this.firstName + ' ' + this.lastName;
+        courses: ['JS', 'PHP', 'Symfony'],
+
+        greetings: function() {
+
+            return `Hi, My name is ${this.firstName} ${this.lastName}.`;
+
+        },
+
+        fullName: function() {
+
+            return this.firstName + ' ' + this.lastName;
+
+        }
 
     }
+    // console.table(person);
+    // console.log(person.firstName);
+    // console.log(person.greetings());
+    // console.log(person.fullName());
+    // console.log(animal["kind"]);
 
-}
-console.table(person);
+
+document.getElementById("mark").innerHTML = car.mark;
+document.getElementById("model").innerHTML = car.model;
+document.getElementById("price").innerHTML = car.price;
+
+document.getElementById("name").innerHTML = animal.name;
+document.getElementById("age").innerHTML = animal.age;
+document.getElementById("race").innerHTML = animal.race;
+document.getElementById("personName").innerHTML = person.fullName();
+document.getElementById("ageP").innerHTML = person.age;
+document.getElementById("courses").innerHTML = person.courses;
+
+
+
+
+//print the following message within the browser: My favorite sandwich is a Hamburger which has approximately 260 calories, along with it I enjoy eating Large French Fries which have about 570 calories
+var sandwiches = { sandwich: "hamburger", calories: "260" };
+var fries = { fries_size: "Large French Fries", calories: "570" };
+
+console.log()
