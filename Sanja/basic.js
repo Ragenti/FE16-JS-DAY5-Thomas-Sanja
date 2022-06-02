@@ -1,18 +1,19 @@
 var car = {
 
-    firstName: "john",
+    mark: "volkswagen",
 
-    owner: "doe",
+    model: "tiguan",
 
-    age: 25,
+    price: 29999,
 
-    drivingLicense: true,
+    year: 2020,
 
-    hobbies: ['swim', 'read', 'coding'],
+    fuel: "petrol",
+
 
     fullName: function() {
 
-        return this.firstName + ' ' + this.lastName;
+        return this.mark + ' ' + this.model + ' ' + this.price + ' ' + this.year;
 
     }
 
@@ -20,19 +21,21 @@ var car = {
 
 var animal = {
 
-    name: "mara",
+    name: "mata",
 
     owner: "sanja",
 
     age: 2,
 
-    kind: cat,
+    kind: "cat",
 
-    hobbies: ['swim', 'read', 'coding'],
+    race: "rusian blue",
+
+    hobbies: ['chasing Mouse', 'cuddling'],
 
     fullName: function() {
 
-        return this.firstName + ' ' + this.lastName;
+        return this.name + ' ' + this.owner + ' ' + this.kind + ' ' + this.race;
 
     }
 
@@ -57,3 +60,4 @@ var person = {
     }
 
 }
+console.table(person);
