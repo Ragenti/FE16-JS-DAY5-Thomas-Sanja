@@ -129,6 +129,7 @@ document.getElementById("result").innerHTML += person.info();
 var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
 var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
 
-JSON.parse
+sandwiches = JSON.parse(sandwiches);
+fries = JSON.parse(fries);
 
-console.log()
+console.log("My favorite sandwich is a " + sandwiches.sandwich + " which has approximately " + sandwiches.calories + " calories, along with it I enjoy eating " + fries.fries_size + " which have about " + fries.calories + " calories")
