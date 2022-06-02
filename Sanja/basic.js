@@ -1,6 +1,6 @@
 var car = {
 
-    mark: "volkswagen",
+    brand: "volkswagen",
 
     model: "tiguan",
 
@@ -15,7 +15,7 @@ var car = {
 
     carInfo: function() {
 
-        return this.mark + ' ' + this.model + ' ' + this.price + ' ' + this.year;
+        return this.brand + ' ' + this.model + ' ' + this.price + ' ' + this.year;
 
     }
 
@@ -80,7 +80,7 @@ var person = {
     // console.log(animal["kind"]);
 
 
-document.getElementById("mark").innerHTML = car.mark;
+document.getElementById("brand").innerHTML = car.brand;
 document.getElementById("model").innerHTML = car.model;
 document.getElementById("price").innerHTML = car.price;
 
