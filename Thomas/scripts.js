@@ -1,4 +1,8 @@
+
+
+
 //ex1
+
 
 var car = {
 
@@ -129,7 +133,10 @@ console.log(car2.info());
 
 console.log(car3.info());
 
+
+
 //ex 2
+
 
 var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
 
@@ -143,13 +150,71 @@ console.log("My favorite sandwich is a "+sandwiches.sandwich+" wich has approxim
 
 
 
+//intermediate 
+
+
+let mydata = JSON.parse(employees);
+
+        for (let i = 0; i < mydata.length; i++){
+            
+            if (i < 1){
+
+                document.getElementById('box').innerHTML += "<table id=table><thead><tr><th>UniqueID</th><th>FirstName</th><th>LastName</th><th>EmailAddress</th><th>JobTitle</th><th>Sallary</th></tr></thead><tbody id=table_body></tbody></table>"
+            }
+            
+            document.getElementById('table_body').innerHTML += "<tr><td>"+mydata[i].UniqueID+"</td><td>"+mydata[i].FirstName+"</td><td>"+mydata[i].LastName+"</td><td>"+mydata[i].EmailAddress+"</td><td>"+mydata[i].JobTitle+"</td><td>"+mydata[i].Salary+"</td></tr>";
+            
+            if (i > (mydata.length - 2)){
+
+                var cells = document.querySelectorAll('th,td');
+
+                for (let i = 0; i<cells.length; i++){
+
+                    cells[i].style.borderRight = "5px solid red";
+                    cells[i].style.borderBottom = "5px solid red";
+
+                } 
+            }
+        }
+
+        
+
+
+                                                // function loadJSON(callback) {
+
+                                                // var xobj = new XMLHttpRequest();
+                                                // xobj.overrideMimeType("application/json");
+                                                // xobj.open('GET', 'file.json', true);
+                                                // xobj.onreadystatechange = function () {
+                                                // if (xobj.readyState == 4 && xobj.status == "200") {
+
+                                                // // .open will NOT return a value but simply returns undefined in async mode so use a callback
+                                                // callback(xobj.responseText);
+
+                                                // }
+                                                // }
+                                                // xobj.send(null);
+
+                                                // }
+
+                                                // // Call to function with anonymous callback
+                                                // loadJSON(function(response) {
+                                                // // Do Something with the response e.g.
+                                                // //jsonresponse = JSON.parse(response);
+
+                                                // // Assuming json data is wrapped in square brackets as Drew suggests
+                                                // //console.log(jsonresponse[0].name);
+
+                                                // });
 
 
 
+                                                // document.getElementById('table').innerHTML += "My name is " + mydata[i].FirstName + " and I am working as a " +
+
+                                                //             mydata[i].jobTitleName + "<hr>";
 
 
 
-
-
+//Advanced
 
 

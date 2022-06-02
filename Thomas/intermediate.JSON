@@ -1,0 +1,95 @@
+let employees = `[{ 
+        "UniqueID": "peepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jonethan",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "bbboss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "leepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jonny",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "bboss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "reepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Joe",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "boss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "seepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Joseph",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "ross",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "heepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "John",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "koss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "keepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jack",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "soss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "sleepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jackyl",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "poss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "feepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jill",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "pposs",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "weepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jennifer",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "coss",
+        "Salary": "1111111"
+    },
+    {
+        "UniqueID": "yeepo",
+        "jobTitleName" : "Developer",
+        "FirstName": "Jenny",
+        "LastName": "Doe",
+        "EmailAddress": "@me",
+        "JobTitle": "loss",
+        "Salary": "1111111"
+    }
+]`
+
+
+
+
