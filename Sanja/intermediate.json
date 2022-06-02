@@ -1,0 +1,92 @@
+let employers = `[
+    {
+        "id": "1",
+        "firstName": "Marry",
+        "lastName": " Doe",
+        "email": "marry@example.com",
+        "jobTitle":"Department",
+        "salary":2000,
+
+    }, 
+    {
+        "id":"2",
+        "firstName":"John Doe",
+        "lastName": "Doe",
+        "email": "doe@example.com",
+        "jobTitle":"Department",
+        "salary":2000,
+        
+    },
+    {
+        "id":"3",
+        "firstName":"Marry",
+        "lastName": "Smith",
+        "email": "smith@example.com",
+        "jobTitle":"Manager",
+        "salary":2200,
+    
+    },
+    {
+        "id":"4",
+        "firstName":"Sebastian",
+        "lastName": "Smith",
+        "email": "s.smith@example.com",
+        "jobTitle":"Manager",
+        "salary":2200,
+    
+    },
+    {
+        "id":"5",
+        "firstName":"Anna",
+        "lastName": "Black",
+        "email": "black@example.com",
+        "jobTitle":"Developer",
+        "salary":2500,
+    
+    },
+    {
+        "id":"6",
+        "firstName":"Michael",
+        "lastName": "Simic",
+        "email": "simic@example.com",
+        "jobTitle":"Developer",
+        "salary":2500,
+    
+    },
+    {
+        "id":"7",
+        "firstName":"Maria",
+        "lastName": "Novak",
+        "email": "novak@example.com",
+        "jobTitle":"Accountant",
+        "salary":2300,
+    
+    },
+    {
+        "id":"8",
+        "firstName":"Jackson",
+        "lastName": "Hawt",
+        "email": "j.hawt@example.com",
+        "jobTitle":"Accountant",
+        "salary":2300,
+    
+    },
+    {
+        "id":"9",
+        "firstName":"Meredith",
+        "lastName": "Grey",
+        "email": "grey@example.com",
+        "jobTitle":"Developer",
+        "salary":2500,
+    
+    },
+    {
+        "id":"10",
+        "firstName":"David",
+        "lastName": "White",
+        "email": "white@example.com",
+        "jobTitle":"Developer",
+        "salary":2500,
+    
+    }
+]`
