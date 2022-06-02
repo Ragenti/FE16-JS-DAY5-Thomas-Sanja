@@ -19,7 +19,7 @@ var car = {
 
     },
     info: function() {
-        return `<div class="card" style="width: 18rem;">
+        return `<div class="card m-5" style="width: 18rem;">
         <img src="${this.img}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${this.brand} ${this.model}</h5>
@@ -52,7 +52,7 @@ var animal = {
 
     },
     info: function() {
-        return `<div class="card" style="width: 18rem;">
+        return `<div class="card  m-5" style="width: 18rem;">
         <img src="${this.img}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${this.name} ${this.breed}</h5>
@@ -90,7 +90,7 @@ var person = {
 
         },
         info: function() {
-            return `<div class="card" style="width: 18rem;">
+            return `<div class="card  m-5" style="width: 18rem;">
             <img src="${this.img}" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">${this.firstName} ${this.lastName} ${this.age}</h5>
