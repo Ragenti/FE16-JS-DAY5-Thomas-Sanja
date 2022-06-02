@@ -251,5 +251,11 @@ for (let i = 0; i < bookdata.length; i++){
 
     document.getElementById(`pic_${i}`).style.backgroundRepeat = `no-repeat`;
 
-    document.getElementById(`pic_${i}`).style.backgroundSize = `contain`;
+    if (i !== 4){
+
+        document.getElementById(`pic_${i}`).style.backgroundSize = `80% 100%`;
+    } else {
+
+        document.getElementById(`pic_${i}`).style.backgroundSize = `119.3% 100%`;
+    }
 };
