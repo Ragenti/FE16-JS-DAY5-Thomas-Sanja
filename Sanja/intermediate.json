@@ -5,7 +5,7 @@ let employers = `[
         "lastName": " Doe",
         "email": "marry@example.com",
         "jobTitle":"Department",
-        "salary":2000,
+        "salary":2000
 
     }, 
     {
@@ -14,7 +14,7 @@ let employers = `[
         "lastName": "Doe",
         "email": "doe@example.com",
         "jobTitle":"Department",
-        "salary":2000,
+        "salary":2000
         
     },
     {
@@ -23,7 +23,7 @@ let employers = `[
         "lastName": "Smith",
         "email": "smith@example.com",
         "jobTitle":"Manager",
-        "salary":2200,
+        "salary":2200
     
     },
     {
@@ -32,7 +32,7 @@ let employers = `[
         "lastName": "Smith",
         "email": "s.smith@example.com",
         "jobTitle":"Manager",
-        "salary":2200,
+        "salary":2200
     
     },
     {
@@ -41,7 +41,7 @@ let employers = `[
         "lastName": "Black",
         "email": "black@example.com",
         "jobTitle":"Developer",
-        "salary":2500,
+        "salary":2500
     
     },
     {
@@ -50,7 +50,7 @@ let employers = `[
         "lastName": "Simic",
         "email": "simic@example.com",
         "jobTitle":"Developer",
-        "salary":2500,
+        "salary":2500
     
     },
     {
@@ -59,7 +59,7 @@ let employers = `[
         "lastName": "Novak",
         "email": "novak@example.com",
         "jobTitle":"Accountant",
-        "salary":2300,
+        "salary":2300
     
     },
     {
@@ -68,7 +68,7 @@ let employers = `[
         "lastName": "Hawt",
         "email": "j.hawt@example.com",
         "jobTitle":"Accountant",
-        "salary":2300,
+        "salary":2300
     
     },
     {
@@ -77,7 +77,7 @@ let employers = `[
         "lastName": "Grey",
         "email": "grey@example.com",
         "jobTitle":"Developer",
-        "salary":2500,
+        "salary":2500
     
     },
     {
@@ -86,7 +86,7 @@ let employers = `[
         "lastName": "White",
         "email": "white@example.com",
         "jobTitle":"Developer",
-        "salary":2500,
+        "salary":2500
     
     }
 ]`
