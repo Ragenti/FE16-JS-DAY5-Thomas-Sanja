@@ -24,14 +24,14 @@ for (let i = 0; i < booksList.length; i++) {
 <div class="card-body">
 <h5 class="card-title">${booksList[i].title}</h5>
 <p class="card-text">${booksList[i].author}</p>
-<p id="read" class=" read card-text">${booksList[i].read}</p>
+<p class="read" id="read" class="card-text">${booksList[i].read}</p>
 </div>
 </div>`
-    let read1 = document.querySelectorAll(".read");
+    let read1 = document.getElementsByClassName(".read");
 
     if (booksList[i].read.innerHTML == "Read") {
-        read1.style.backgroundColor = "green";
+        read1[i].css.backgroundColor = "green";
     } else {
-        //  read1.style.backgroundColor = "blue";
+        //         read1[i].style.backgroundColor = "blue";
     }
 }
